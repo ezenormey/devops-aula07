@@ -6,3 +6,5 @@ um jogo da velha.
 * Cada casa do jogo da velha poderá estar vazia,
 ocupada
 pelo 1o jogador ou ocupada pelo 2o jogador.
+
+Requisitos aprovados
