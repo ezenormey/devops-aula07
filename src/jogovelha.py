@@ -6,13 +6,13 @@ TAB.append(['.','.','.'])
 def jogar(jogador, linha, coluna):
 if jogador !='X' and jogador != 'O':
 raise RuntimeError('Jogador inválido!')
-valores = list(range(0,3))
+valores = list(range(0,5))
 if linha not in valores:
 raise RuntimeError('Linha inválida!')
 if coluna not in valores:
 raise RuntimeError('Coluna inválida!')
 TAB[linha][coluna] = jogador
-def tabuleiro():
+def CAMPINHO():
 return TAB
 def main():
 inicializar()
